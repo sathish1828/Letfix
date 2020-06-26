@@ -38,7 +38,7 @@ jQuery(function($){
     });
     
     jQuery('.mu-search-close').on('click', function(event) {
-      $("#mu-search").removeClass('mu-search-open');
+      $('#mu-search').removeClass('mu-search-open');
     });
 
 /* ----------------------------------------------------------- */
@@ -47,12 +47,12 @@ jQuery(function($){
     // WHEN CLICK PLAY BUTTON 
     jQuery('#mu-abtus-video').on('click', function(event) {
       event.preventDefault();
-      $('body').append("<div id='about-video-popup'><span id='mu-video-close' class='fa fa-close'></span><iframe id='mutube-video' name='mutube-video' frameborder='0' allowfullscreen></iframe></div>");        
-      $("#mutube-video").attr("src", $(this).attr("href"));
+      $('body').append('<div id=\'about-video-popup\'><span id=\'mu-video-close\' class=\'fa fa-close\'></span><iframe id=\'mutube-video\' name=\'mutube-video\' frameborder=\'0\' allowfullscreen></iframe></div>');        
+      $('#mutube-video').attr('src', $(this).attr('href'));
     });         
     // WHEN CLICK CLOSE BUTTON
     $(document).on('click','#mu-video-close', function(event) {     
-      $(this).parent("div").fadeOut(1000);
+      $(this).parent('div').fadeOut(1000);
     });
     // WHEN CLICK OVERLAY BACKGROUND
     $(document).on('click','#about-video-popup', function(event) {
@@ -208,7 +208,7 @@ jQuery(function($){
   /* ----------------------------------------------------------- */ 
       
     jQuery(document).ready(function() {
-      jQuery(".fancybox").fancybox();
+      jQuery('.fancybox').fancybox();
     });
   
   /* ----------------------------------------------------------- */
@@ -270,7 +270,7 @@ if ($(window).width() < 992) {
     function toggleChevron(e) {
         $(e.target)
                 .prev('.panel-heading')
-                .find("i")
+                .find('i')
                 .toggleClass('rotate-icon');
         $('.panel-body.animated').toggleClass('zoomIn zoomOut');
     }

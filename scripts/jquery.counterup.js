@@ -7,7 +7,7 @@
 * Date: Nov 26, 2013
 */
 (function( $ ){
-  "use strict";
+  'use strict';
 
   $.fn.counterUp = function( options ) {
 
