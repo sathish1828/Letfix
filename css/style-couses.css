@@ -1,68 +1,119 @@
-
-.container{
-  width: 90%;
+#mu-page-breadcrumb {
+    padding: 10px;
 }
-
-/*================================banner============================*/
-
-.course-page-banner img{
-  width: 100%;
-  max-height: 400px;
+.mu-latest-course-single .mu-latest-course-single-content {
+    padding: 5px;
 }
-
-/*================================description=========================*/
-
-#mu-course-content{
-  padding: 20px 0;
+#mu-page-breadcrumb .mu-page-breadcrumb-area h2 {
+    padding-top: 10px;
+    font-size: medium;
+    line-height: 1.4em;
 }
-
-#mu-course-content .mu-course-content-area .mu-course-container .mu-latest-course-single{
-  margin-bottom: 0px;
+#mu-course-content {
+    padding: 46px 0;
 }
-
-/*=================================Enroll button=====================*/
-
-.enroll-button{
-  background-color: #03989e;
-  color: white;
-  border-radius: 5px;
-  float: right;
-  padding: 8px;
-  font-weight: bold;
+.enroll-button {
+    background-color: #03989e;
+    color: white;
+    border-radius: 5px;
+    float: right;
+    padding: 8px;
+    font-weight: bold;
 }
-
-/*================================sidebar===========================*/
-
-#sidebar-table  td{
+#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content h4 {
+    font-weight: bold;
+    font-size: small;
+}
+#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content ul {
+    padding-left: 20px;
+    font-size: small;
+}
+#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content p {
+    font-size: small;
+}
+.panel-group .panel-heading {
+    background-color: #03989e;
+    border-radius: 4px;
+}
+.panel-heading {
+    padding: 8px;
+}
+.panel-group .panel {
+    margin: 5px;
+    border-bottom: 1px solid #03989e;
+}
+.panel-title {
+    font-size: small;
+}
+#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content .bullet li::before {
+    content: "\2022";
+    color: #03989e;
+    font-weight: bold;
+    display: inline-block;
+    width: 10px;
+    margin-left: -10px;
+}
+.panel-group {
+    margin-bottom: -10px;
+}
+.mu-latest-course-single .mu-latest-course-single-content
+{
+  padding:5px;
+}
+.mu-latest-course-single .mu-latest-course-single-content p
+{
+  font-size: small;
+  line-height:1.4em;
+  text-align: justify;
+}
+.mu-latest-course-single .mu-latest-course-single-content h4 a
+{
+  font-weight:bold;
+}
+h4
+{
+  font-size: small;
+}
+figcaption
+{
+  display: none !important;
+}
+.mu-related-item-area #mu-related-item-slide .mu-latest-course-single .mu-latest-course-img
+{
+  height:100px;
+}
+.mu-latest-course-single
+{
+  width:100%;
+}
+#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar 
+{
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0 10px 0px;
+}
+#sidebar-table td
+{
   padding:10px;
+  font-size: small;
 }
-
 #sidebar-icon{
   text-align:center;
-  padding: 10px;
   color: #03989e;
   border: 2px solid #03989e;
   border-radius: 100%;
 }
-
 .percentage{
   color: #03989e;
 }
-
 .sidebar-related-courses{
   margin-top: 40px;
 }
-
 .sidebar-related-courses li{
   margin-top: 20px;
   font-weight:bold;
+  font-size: small;
 }
-
-.sidebar-related-courses b{
-  padding-bottom: 10px;
-}
-
-
 .sidebar-related-courses #underline::after{
   content: '';
   height: 2px;
@@ -75,70 +126,7 @@
   float:right;
   font-weight: bold;
 }
-
-/*===============================course overview===================*/
-
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content h4{
-  font-weight: bold;
+.sidebar-related-courses b {
+    padding-bottom: 10px;
+    font-size: small;
 }
-
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content ul{
-  padding-left:20px;
-}
-
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content .bullet li::before{
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color:#1f2424; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */ 
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
-}
-
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content .bullet li::before{
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color:#03989e; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */ 
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
-}
-
-.bold{
-  font-weight: bold;
-}
-
-.mu-latest-course-single .mu-latest-course-single-content p{
-  text-align: justify;
-}
-
-/*===================================syllabus=======================================*/
-.panel-group .panel-heading{
-  background-color: #03989e;
-  border-radius: 4px;
-}
-
-.panel-group .panel{
-  margin: 5px;
-  border-bottom: 1px solid #03989e;
-}
-
-.panel-default > .panel-heading{
-  color: aliceblue;
-}
-/*===================================related courses================================*/
-.mu-latest-course-single .mu-related-item-area #mu-related-item-slide .slick-prev, .mu-related-item .mu-related-item-area #mu-related-item-slide .slick-next{
-  width: 50px;
-  height: 50px;
-  background-color: #03989e;
-}
-
-.mu-latest-course-single .mu-related-item-area #mu-related-item-slide .slick-next, .mu-related-item .mu-related-item-area #mu-related-item-slide .slick-next{
-  width: 50px;
-  height: 50px;
-  background-color: #03989e;
-}
-
-
-
-
