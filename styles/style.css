@@ -26,7 +26,7 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #333333;
-  font-size: 15px;
+  font-size:small;
   overflow-x: hidden;
   -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -77,11 +77,11 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
+  font-size:small;
 }
 
 h2 {
-  font-size:15px;
+  font-size:small;
   font-weight: 700;
   margin: 0;
 }
@@ -123,9 +123,12 @@ img {
 }
 
 .panel-title{
-  font-size: 15px;
+  font-size:small;
 }
 
+.navbar-brand{
+  font-size:small;
+}
 
 /*============================*/
 
@@ -223,7 +226,7 @@ background: #03989e;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
-  font-size: 15px;
+  font-size:small;
 }
 #mu-menu .navbar-default .navbar-nav li #mu-search-icon:hover, #mu-menu .navbar-default .navbar-nav li #mu-search-icon:focus {
   border: none;
@@ -706,7 +709,7 @@ background: #03989e;
   transition: all 0.5s;
 }
 .mu-latest-course-single .mu-latest-course-single-content p {
-  font-size: 15px;
+  font-size:small;
   letter-spacing: 0.3px;
   line-height: 1.7;
 }
@@ -822,7 +825,7 @@ background: #03989e;
   border: 2px solid #fff;
   color: #fff;
   display: inline-block;
-  font-size: 15px;
+  font-size:small;
   height: 40px;
   line-height: 40px;
   margin: 0 5px;
@@ -853,12 +856,12 @@ background: #03989e;
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-ourteacher-single-content span {
   color: #000;
   display: block;
-  font-size: 15px;
+  font-size:small;
   margin-bottom: 8px;
   margin-top: 5px;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-ourteacher-single-content p {
-  font-size: 15px;
+  font-size:small;
 }
 
 /*==================
@@ -875,7 +878,7 @@ background: #03989e;
   position: relative;
   width: 100%;
   z-index: 10;
-  font-size: 15px;
+  font-size:small;
 }
 #mu-testimonial:after {
   background-color: rgba(0, 0, 0, 0.5);
@@ -934,7 +937,7 @@ background: #03989e;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote blockquote p {
   color: #fff;
-  font-size: 15px;
+  font-size:small;
   font-style: italic;
   letter-spacing: 0.1px;
 }
@@ -961,11 +964,11 @@ background: #03989e;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info h4 {
   color: #fff;
-  font-size: 15px;
+  font-size:small;
   margin-bottom: 0px;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info span {
-  font-size: 15px;
+  font-size:small;
   letter-spacing: 0.3px;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .slick-dots li {
@@ -990,7 +993,7 @@ background: #03989e;
   position: relative;
   width: 100%;
   z-index: 10;
-  font-size: 15px;
+  font-size:small;
 }
 
 #mu-about h2{
@@ -999,7 +1002,7 @@ background: #03989e;
 }
 
 #mu-about p{
-  font-size: 15px;
+  font-size:small;
 }
 
 
@@ -1071,7 +1074,7 @@ background: #03989e;
   border: 1px solid #ccc;
   border-radius: 4px;
   color: #000;
-  font-size: 15px;
+  font-size:small;
   height: 35px;
   margin-bottom: 20px;
   padding: 5px;
