@@ -484,6 +484,10 @@ background: #03989e;
   font-weight: lighter;
 }
 
+.slider-below_max-height{
+  width: 100%;
+}
+
 /*==================
  ABOUT SECTION
 ====================*/
@@ -1551,6 +1555,56 @@ margin-bottom: -20px;
     float: left;
     width: 100%;
     height: 240px;
+  }
+
+  /*LATEST COURSES SECTION*/
+
+  .mu-latest-course-single .mu-latest-course-img{
+    height: 120px;
+  }
+
+  .mu-latest-course-single .mu-latest-course-single-content h4{
+    font-size: small;
+  }
+
+  .mu-latest-course-single .mu-latest-course-single-content{
+    padding: 10px;
+    padding-top:0px;
+  }
+
+  .course-div-set-height{
+    height: 280px;
+  }
+
+  /*TEACHER SECTION*/
+  #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-ourteacher-single-content p{
+    font-size: medium;
+  }
+
+  #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single{
+    height: 380px;
+  }
+
+  /*TESTIMONIAL SECTION*/
+  #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote blockquote p{
+    font-size: medium;
+  }
+
+  #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info h4{
+    font-size: medium;
+  }
+
+  #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info span{
+    font-size: medium;
+  }
+
+  #mu-testimonial{
+    padding-bottom: 50px;
+  }
+
+  /*ABOUT SECTION*/
+  #mu-about p{
+    font-size: medium;
   }
 
 }

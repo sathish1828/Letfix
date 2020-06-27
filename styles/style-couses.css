@@ -451,9 +451,9 @@ ul a
   .panel-group .panel-heading {
     font-size:17px;
   }
-  /*.mu-related-item-area #mu-related-item-slide .mu-latest-course-single .mu-latest-course-img{
+  .mu-related-item-area #mu-related-item-slide .mu-latest-course-single .mu-latest-course-img{
     height:100%;
-  }*/
+  }
   figcaption
   {
     display: block !important;
