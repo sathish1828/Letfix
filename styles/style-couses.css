@@ -344,3 +344,19 @@ font-weight: bold;
   padding-bottom: 10px;
   font-size: small;
 }
+
+@media only screen and (min-width:360px){
+
+}
+
+@media only screen and (min-width:480px){
+
+}
+
+@media only screen and (min-width:748px){
+
+}
+
+@media only screen and (min-width:1024){
+
+}
