@@ -157,7 +157,7 @@ h2
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
   font-weight:bold;
-  font-size: 15px;
+  font-size: small;
 }
 #mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content p {
   font-size: small;
@@ -320,7 +320,7 @@ padding:10px;
 }
 #sidebar-table b
 {
-  font-size: 15px;
+  font-size: small;
 }
 #sidebar-table p
 {
@@ -361,15 +361,12 @@ font-weight: bold;
 }
 
 @media only screen and (min-width:360px){
-
 }
 
-@media only screen and (min-width:480px){
-
+@media only screen and (max-width:480px){
 }
 
-@media only screen and (min-width:748px){
-
+@media only screen and (max-width:748px){
 }
 
 @media only screen and (min-width:1024){
