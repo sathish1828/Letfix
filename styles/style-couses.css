@@ -43,6 +43,7 @@ h2
   display: inline;
   float: left;
   width: 100%;
+  overflow: hidden;
 }
 #mu-course-content .mu-course-content-area .mu-course-container {
   display: inline;
@@ -361,7 +362,7 @@ font-weight: bold;
   font-size: medium;
 }
 
-@media only screen and (min-width:360px){
+@media only screen and (min-width:380px){
   h2{
     font-size: 20px;
   }
@@ -391,10 +392,10 @@ ul a
 }
 }
 
-@media only screen and (min-width:480px)and (max-width: 738px){
+@media only screen and (min-width:480px)and (max-width: 768px){
   h2
   {
-    font-size: 25px;
+    font-size: 30px;
   }
   .mu-latest-course-single .mu-latest-course-img a img
   {
@@ -427,13 +428,13 @@ ul a
 }
 
 
-@media only screen and (min-width:1024px) and ( max-width: 1366px){
+@media only screen and (min-width:1024px) and (max-width: 1366px){
   h2 {
     font-size: 30px;
   }
   .mu-latest-course-single .mu-latest-course-img a img
   {
-    padding:0 20px;
+    padding:0 0;
   }
   #mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content h4
   {
@@ -450,5 +451,11 @@ ul a
   .panel-group .panel-heading {
     font-size:17px;
   }
-
+  .mu-related-item-area #mu-related-item-slide .mu-latest-course-single .mu-latest-course-img{
+    height:100%;
+  }
+  figcaption
+  {
+    display: block !important;
+  }
 }
