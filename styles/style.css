@@ -656,6 +656,7 @@ background: #03989e;
   display: inline;
   float: left;
   width: 100%;
+  margin: 4px;
 }
 .mu-latest-course-single .mu-latest-course-img {
   display: inline;
@@ -1512,6 +1513,46 @@ margin-bottom: -20px;
 }
 .cancel-button:hover{
   color: #545454;
+}
+
+@media only screen and (min-width:380px){
+  body{
+    font-size: medium;
+  }
+
+  h1,h2,h3,h4,h5,h6,a,p{
+    font-size: medium;
+  }
+
+  .navbar-brand{
+    font-size: medium;
+  }
+  
+  /*==================
+    INDEX PAGE
+  ====================*/
+
+  /*MENU SECTION*/
+
+  #logo{
+    width: 30px;
+  }
+
+  #mu-menu .navbar-default .navbar-nav li > a{
+    font-size: medium;
+    padding-bottom:14px;
+    padding-top: 14px;
+  }
+
+  /*SLIDER SECTION*/
+
+  #mu-slider .mu-slider-single .mu-slider-img {
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 240px;
+  }
+
 }
 
 
