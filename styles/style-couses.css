@@ -157,7 +157,7 @@ h2
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
   font-weight:bold;
-  font-size: 15px;
+  font-size: small;
 }
 #mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content p {
   font-size: small;
@@ -256,6 +256,7 @@ h2
   color: white;
   border-radius: 5px;
   float: right;
+  font-size: small;
   padding: 8px;
   font-weight: bold;
 }
@@ -320,7 +321,7 @@ padding:10px;
 }
 #sidebar-table b
 {
-  font-size: 15px;
+  font-size: small;
 }
 #sidebar-table p
 {
@@ -361,19 +362,93 @@ font-weight: bold;
 }
 
 @media only screen and (min-width:360px){
-  .row{
-    background-color: #03989e;
+  h2{
+    font-size: 20px;
   }
+#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content h4
+  {
+    font-size: medium;
+  }
+#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content ul li
+{
+  font-size: small;
+}
+ul a
+{
+  font-size: small;
+}
+#sidebar-table td
+{
+  font-size: small;
+}
+#sidebar-table b
+{
+  font-size: 14px;
+}
+.panel-group .panel-heading
+{
+  font-size: medium;
+}
 }
 
-@media only screen and (min-width:480px){
-
+@media only screen and (min-width:480px)and (max-width: 738px){
+  h2
+  {
+    font-size: 25px;
+  }
+  .mu-latest-course-single .mu-latest-course-img a img
+  {
+    padding: 10px 20px;
+  }
+  #mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content h4
+  {
+    font-size: medium;
+  }
+#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content ul li
+{
+  font-size: small;
+}
+ul a
+{
+  font-size: small;
+}
+#sidebar-table td
+{
+  font-size: small;
+}
+#sidebar-table b
+{
+  font-size: 14px;
+}
+.panel-group .panel-heading
+{
+  font-size: medium;
+}
 }
 
-@media only screen and (min-width:748px){
 
-}
-
-@media only screen and (min-width:1024){
+@media only screen and (max-width:1024px){
+  h2 {
+    font-size: 30px;
+  }
+  .mu-latest-course-single .mu-latest-course-img a img
+  {
+    padding:0 20px;
+  }
+  #mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content h4
+  {
+    font-size: 17px;
+  }
+  #mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content ul li 
+  {
+    font-size: 14px;
+  }
+  .sidebar-related-courses li
+  {
+    font-size:17px;
+  }
+  .panel-group .panel-heading {
+    font-size:17px;
+  }
 
 }
