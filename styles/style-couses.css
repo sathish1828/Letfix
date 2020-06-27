@@ -361,7 +361,9 @@ font-weight: bold;
 }
 
 @media only screen and (min-width:360px){
-  
+  .row{
+    background-color: #03989e;
+  }
 }
 
 @media only screen and (min-width:480px){
