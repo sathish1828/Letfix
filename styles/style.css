@@ -378,6 +378,7 @@ background: #03989e;
   display: inline;
   float: left;
   width: 100%;
+  z-index: 12;
 }
  
 #mu-slider .mu-slider-single {
@@ -1728,8 +1729,6 @@ margin-bottom: -20px;
 ===================*/
 
 #mu-our-project .container .row .col-md-12 .mu-our-project-content .row{
-  height: 200px;
-  overflow: hidden;
   margin-top: 15px;
   margin-bottom: 15px;
   background-color:#f8f8f8;
