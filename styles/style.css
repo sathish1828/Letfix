@@ -273,7 +273,7 @@ background: #03989e;
   }
 
   .dropdown-menu{
-    width:fit-content;
+    width:max-content;
   }
 
   .fa-angle-right{
@@ -1633,11 +1633,6 @@ margin-bottom: -20px;
   #logo{
     width: 40px;
   }
-
-
-  .dropdown-menu .fa-angle-right{
-    float: none;
-  }
   #mu-menu .navbar-header #navbar-title{
     margin-top:10px;
     font-size: 18px;
@@ -1744,6 +1739,11 @@ margin-bottom: -20px;
     padding-top: 25px;
     padding-bottom: 25px;
     font-size: medium;
+  }
+
+  #mu-slider .slick-prev, #mu-slider .slick-next{
+    width: 60px;
+    height: 60px;
   }
 
   /*SLIDER SECTION*/

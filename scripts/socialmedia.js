@@ -6,8 +6,8 @@ function setVisibility(){
   var position=window.pageYOffset;
   var element=document.getElementsByClassName('mu-top-social-nav')[0];
   if(position>=height+20){
-    element.style.display="contents";
+    element.style.opacity=1;
   }else{
-    element.style.display="none";
+    element.style.opacity=0;
   }
 }
