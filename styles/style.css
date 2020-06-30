@@ -1563,11 +1563,11 @@ margin-bottom: -20px;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
   letter-spacing: 0.5px;
-  margin: 0 5px;
-  padding: 6px 15px;
+  margin: 5px 5px;
+  padding: 5px 15px;
   text-transform: uppercase;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -1803,6 +1803,11 @@ RESPONSIVE DESIGN
     line-height: 1.6em;
     padding: 10px;
   }
+  /*GALLERY*/
+  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li
+  {
+    font-size: 14px;
+  }
 
 }
 
@@ -1831,6 +1836,11 @@ RESPONSIVE DESIGN
   /*CHAT BOX*/
   .chatbox{
     width:360px;
+  }
+  /*GALLERY*/
+  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li {
+    font-size: 15px;
+    margin:5px 1px;
   }
 }
 
@@ -1909,7 +1919,13 @@ RESPONSIVE DESIGN
     padding: 20px;
     padding-left: 0px;
   }
-
+  /*GALLERY*/
+  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li
+  {
+    font-size: 16px;
+    margin:5px 7px;
+    padding:6px 18px;
+  }
 
 }
 
@@ -2053,6 +2069,11 @@ RESPONSIVE DESIGN
     letter-spacing: 0.3px;
     font-size: 16px;
   }
-
+  /*GALLERY*/
+  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li
+  {
+    font-size: 17px;
+    padding: 6px 30px;
+  }
 }
 
