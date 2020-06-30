@@ -362,6 +362,7 @@ background: #03989e;
   outline: medium none;
   text-align: center;
   width: 100%;
+  z-index: 12;
 }
 
 #mu-search.mu-search-open {
@@ -375,6 +376,7 @@ background: #03989e;
   display: inline;
   float: left;
   width: 100%;
+  z-index: 12;
 }
  
 #mu-slider .mu-slider-single {
@@ -1609,9 +1611,6 @@ margin-bottom: -20px;
 
 }
 
-
-
-
 /*==================
  GALLERY PAGE
 ====================*/
@@ -1805,7 +1804,9 @@ margin-bottom: -20px;
 
 
 
-/*===================project page=======================*/
+/*===================
+     PROJECT PAGE
+===================*/
 
 #mu-our-project .container .row .col-md-12 .mu-our-project-content .row{
   height: 200px;
@@ -1857,7 +1858,8 @@ margin-bottom: -20px;
     padding:6px 18px;
   }
 }
- @media only screen and (min-width: 1024px)
+ 
+@media only screen and (min-width: 1024px)
 {
   #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li
   {
