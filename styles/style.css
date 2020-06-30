@@ -1645,11 +1645,11 @@ margin-bottom: -20px;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.5px;
-  margin: 5px 5px;
-  padding: 5px 15px;
+  margin: 0 5px;
+  padding: 6px 15px;
   text-transform: uppercase;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -1829,40 +1829,4 @@ margin-bottom: -20px;
 
 .mu-term-area .row .col-md-12 ul{
   padding-left:20px;
-}
-
-
-/*Gallery*/
-@media only screen and (min-width: 380px)
-{
-  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li
-  {
-    font-size: 14px;
-  }
-}
-@media only screen and (min-width: 480px)
-{
-  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li {
-    font-size: 15px;
-    margin:5px 1px;
-  }
-}
-
-@media only screen and (min-width:768px)
-{
-  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li
-  {
-    font-size: 16px;
-    margin:5px 7px;
-    padding:6px 18px;
-  }
-}
- 
-@media only screen and (min-width: 1024px)
-{
-  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li
-  {
-    font-size: 18px;
-    padding: 6px 30px;
-  }
 }

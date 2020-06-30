@@ -2,7 +2,7 @@
   background-color: #333;
   display: inline;
   float: left;
-  padding: 13px 0;
+  padding: 18px 0;
   width: 100%;
 }
 #mu-page-breadcrumb .mu-page-breadcrumb-area {
@@ -361,7 +361,7 @@ font-weight: bold;
 
 @media only screen and (min-width:380px)
 {
-  #mu-page-breadcrumb .mu-page-breadcrumb-area h2
+  h2
   {
   font-size: 17px;
   }
@@ -396,7 +396,7 @@ font-weight: bold;
 }
 @media only screen and (min-width:480px)
 {
-  #mu-page-breadcrumb .mu-page-breadcrumb-area h2
+  h2
   {
     font-size: 20px;
   }
