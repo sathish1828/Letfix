@@ -758,7 +758,7 @@ background: #03989e;
 }
 
 .course-div-set-height{
-  height:320px;
+  height:340px;
 }
 
 .slick-dots{
@@ -2118,7 +2118,7 @@ RESPONSIVE DESIGN
   }
 
   .course-div-set-height{
-    height: 280px;
+    height: 400px;
   }
 
 
@@ -2164,6 +2164,10 @@ RESPONSIVE DESIGN
   #mu-slider .mu-slider-single .mu-slider-content h4{
     margin-bottom: 0;
     font-size: 18px;
+  }
+  /*LATEST COURSES SECTION*/
+  .course-div-set-height{
+    height: 320px;
   }
   /*CHAT BOX*/
   .chatbox{
@@ -2240,6 +2244,10 @@ RESPONSIVE DESIGN
   }
   #mu-service .mu-service-area .mu-service-single{
     padding: 16px;
+  }
+  /*LATEST COURSES SECTION*/
+  .course-div-set-height{
+    height: 340px;
   }
 
   /*TEACHER SECTION*/
@@ -2393,7 +2401,7 @@ RESPONSIVE DESIGN
   }
 
   .course-div-set-height{
-    height: 400px;
+    height: 460px;
   }
 
   #mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content .slick-dots{
