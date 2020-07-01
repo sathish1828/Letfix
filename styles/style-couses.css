@@ -334,7 +334,7 @@ font-weight: bold;
   }
   .enroll-button
   {
-    padding:8px;
+    padding:7px;
   }
   
 }
@@ -343,18 +343,19 @@ font-weight: bold;
   #mu-page-breadcrumb{
     padding:30px 0;
   }
-  .cont
-  {
-    margin-top: 280px;
-  }
   .enroll-button
   {
     font-size: 16px;
+    padding:4px;
   }
 }
 @media only screen and (min-width: 1024px)
 {
   #mu-page-breadcrumb{
   padding:35px 0;
+  }
+  .enroll-button
+  {
+    padding:7px;
   }
 }
