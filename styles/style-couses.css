@@ -13,6 +13,7 @@
 #mu-page-breadcrumb .mu-page-breadcrumb-area h2 {
   text-align: center;
   color: #fff;
+  text-transform: uppercase;
 }
 #mu-page-breadcrumb .mu-page-breadcrumb-area .breadcrumb {
   background-color: transparent;
