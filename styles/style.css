@@ -91,8 +91,8 @@ img {
 }
 
 .mu-read-more-btn {
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid black;
+  color: black;
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
@@ -228,6 +228,14 @@ background: #03989e;
   transition: all 0.5s;
   font-size: small;
 }
+.fa-angle-down:before
+{
+	padding:0 0 0 5px;
+}
+.fa-angle-right:before
+{
+	padding: 0 0 0 5px;
+}
 #mu-menu .navbar-default .navbar-nav li #mu-search-icon:hover, #mu-menu .navbar-default .navbar-nav li #mu-search-icon:focus {
   border: none;
 }
@@ -277,7 +285,7 @@ background: #03989e;
   }
 
   .fa-angle-right{
-    padding: 4px;
+    padding: 3px;
   }
 
   .dropdown-menu .fa-angle-right{
