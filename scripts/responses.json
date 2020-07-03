@@ -112,7 +112,17 @@
         "Robo war":"robo_war_event.html",
         "Robotics":"robotics_event.html",
         "Technical paper presentation":"technical_paper_presentation_event.html",
-        "Website Design":"web_design_event.html"
+        "Website Design":"web_design_event.html",
+
+        "Special Purpose Machine-SPM":"special_purpose_machine_service.html",
+        "Guided Vehicle":"guided_vehicle_service.html",
+        "Robotics":"robotics_service.html",
+        "Biomedical devices":"bio_medical_devices_service.html",
+        "Industrial Automation":"industrial_automation_service.html",
+        "Electrical Service":"electrical_service.html",
+        "Solar Service":"solar_service.html",
+        "Electrical Equipments":"electrical_equipments_service.html",
+        "Computer Numerical Control-CNC":"computer_numerical_control_service.html"
     },
     "popups": {
         "Contact Us": {
