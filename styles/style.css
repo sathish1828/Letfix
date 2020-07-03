@@ -277,7 +277,7 @@ background: #03989e;
 	}
 	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
 	.dropdown-menu > li:hover > .submenu{
-		display: block;
+    display: block;
   }
 
   .dropdown-menu{
@@ -585,7 +585,7 @@ background: #03989e;
   text-align: center;
 }
 #mu-features .mu-features-area h2{
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 #mu-features .mu-features-area .mu-features-content {
@@ -1827,6 +1827,11 @@ display: none !important;
 {
 width:100%;
 }
+
+.mu-course-details .row .col-md-12 .mu-latest-course-single .mu-latest-course-single-content .panel-group .panel .panel-heading .panel-title{
+  color: #fff;
+}
+
 #mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar 
 {
   margin-top: 30px;
